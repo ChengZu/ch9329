@@ -3,7 +3,7 @@ ch9329用来刷抖音,也可以用来干其他的
 
 写了4个函数
 ```  
-//鼠标按下
+//鼠标按下 code为MOUSE_LEFT 0， MOUSE_RIGHT 1， MOUSE_MID 2
 void MouseDown(char code);
 //鼠标松开
 void MouseUp(char code);
