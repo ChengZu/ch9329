@@ -23,8 +23,8 @@ void printbuff(BUFFER buf)
 	
 }
 
-//×Ô¶¯Ë¢¶¶Òô 
-void douying()
+//è‡ªåŠ¨åˆ·æŠ–éŸ³ 
+void douyin()
 {
 	while(true)
 	{
@@ -46,12 +46,12 @@ void douying()
 
 int main(int argc, char** argv) {
 	
-	//´ò¿ª´®¿Ú 
+	//æ‰“å¼€ä¸²å£ 
 	com.open((char*)"COM4");
 	
-	cout<<"³ÌĞòÒÑÆô¶¯"<<endl; 
+	cout<<"ç¨‹åºå·²å¯åŠ¨"<<endl; 
 
-	douying(); 
+	douyin(); 
 
 
 	BUFFER buf={0,{0,}};
